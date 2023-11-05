@@ -5,7 +5,8 @@ public class MissingNumber {
         System.out.println();
         int[] nums = {9,3, 4, 2, 8};
        // System.out.println(missingPositive(nums));
-        System.out.println(absentedNumber(nums));
+       // System.out.println(absentedNumber(nums));
+        System.out.println(evenNumbers(nums).toString());
 //
 //        if(nums==null || nums.length==0)  {
 //            System.out.println(1);
@@ -44,6 +45,18 @@ public class MissingNumber {
              missingNumber ++;
         }
         return missingNumber;
+    }
+
+    private static int[]evenNumbers(int[]nums){
+        int[]result = new int[nums.length];
+
+        for (int i = 0; i < nums.length; i++) {
+            if(i%2 ==0){
+                System.out.println(i);
+            }
+
+        }
+        return result;
     }
 }
 //        int missingNumberz;
