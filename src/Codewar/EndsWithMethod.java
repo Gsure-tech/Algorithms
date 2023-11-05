@@ -10,7 +10,10 @@ public class EndsWithMethod {
 //    solution('abc', 'd') // returns false
 
     public class Kata {
-        public static boolean solution(String str, String ending) {
+        public void main(String[] args) {
+
+        }
+        public  boolean solution(String str, String ending) {
             if(str.endsWith(ending)){
                 return true;
             }
