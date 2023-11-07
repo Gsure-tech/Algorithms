@@ -58,18 +58,21 @@ public class MissingNumber {
         }
         return result;
     }
-}
-//        int missingNumberz;
-//        Arrays.sort(nums);
-//
-//        if(nums==null || nums.length==0)  {
-//            return new int[]{1};
-//        }
-//        for(int i=0; i<nums.length; i++){
-//            if (!nums.equals(i)){
-//                return nums;
-//            }
-//        }
-//        return nums;
-//    }
 
+
+
+    public int[] myNum(int[] pNums){
+        int missingNumberz;
+        Arrays.sort(pNums);
+
+        if(pNums==null || pNums.length==0)  {
+            return new int[]{1};
+        }
+        for(int i=0; i<pNums.length; i++){
+            if (!pNums.equals(i)){
+                return pNums;
+            }
+        }
+        return pNums;
+    }
+        }
