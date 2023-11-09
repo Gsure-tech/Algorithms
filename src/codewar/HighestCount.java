@@ -1,4 +1,4 @@
-package Codewar;
+package codewar;
 import java.util.*;
 public class HighestCount {
 
@@ -6,7 +6,7 @@ public class HighestCount {
 
 
 
-        public static String high(String s) {
+        public String high(String s) {
             Map<Character, Integer> count = new HashMap<>();
 
 

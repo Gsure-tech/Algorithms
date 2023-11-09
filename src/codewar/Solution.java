@@ -1,6 +1,5 @@
-package Codewar;
+package codewar;
 
-import java.lang.StringBuilder;
 class Solution{
     /*Complete the method/function so that it converts dash/underscore
     delimited words into camel casing. The first word within the output

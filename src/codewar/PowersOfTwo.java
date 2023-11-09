@@ -1,6 +1,5 @@
-package Codewar;
+package codewar;
 
-import java.util.*;
 public class PowersOfTwo{
     public static long[] powersOfTwo(int n){
         /* Complete the function that takes a non-negative integer n as input,

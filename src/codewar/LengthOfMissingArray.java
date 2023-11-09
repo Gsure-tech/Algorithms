@@ -1,4 +1,4 @@
-package Codewar;
+package codewar;
 import java.util.*;
 public class LengthOfMissingArray {
     public static void main(String[] args) {
