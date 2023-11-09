@@ -1,4 +1,4 @@
-package Codewar;
+package codewar;
 
 class Challenge {
     public static String numberToOrdinal(Integer number) {

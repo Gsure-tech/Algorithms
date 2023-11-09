@@ -1,4 +1,4 @@
-package Codewar;
+package codewar;
 
 public class EndsWithMethod {
 
@@ -9,15 +9,10 @@ public class EndsWithMethod {
 //    solution('abc', 'bc') // returns true
 //    solution('abc', 'd') // returns false
 
-    public class Kata {
-        public void main(String[] args) {
-
-        }
-        public  boolean solution(String str, String ending) {
+        public static boolean solution(String str, String ending) {
             if(str.endsWith(ending)){
                 return true;
             }
             return false;
-        }
     }
 }

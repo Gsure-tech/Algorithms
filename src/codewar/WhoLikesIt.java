@@ -1,4 +1,4 @@
-package Codewar;
+package codewar;
 
 public class WhoLikesIt {
     public static void main(String[] args) {

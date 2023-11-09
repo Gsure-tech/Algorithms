@@ -1,4 +1,4 @@
-package Codewar;
+package codewar;
 
 public class BitCounting {
     public static void main(String[] args) {
