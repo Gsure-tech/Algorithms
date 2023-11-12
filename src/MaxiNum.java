@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class MaxiNum {
     public static void main(String[] args) {
       //  System.out.println(maxiNumb(new int[]{5, 6, 3,  7}).toString());
@@ -10,7 +13,10 @@ public class MaxiNum {
         System.out.println(maxiNumb(nums));
     }
 
+
     private static int[] maxiNumb(int[] nums) {
+        List<Integer> myInt = Arrays.asList(1,4,5,2,6);
+        System.out.println("this filter" + myInt.stream().filter(e -> e.equals(3)).toString());
        int maxNum = nums[0];
         for (int i = 0; i < nums.length; i++) {
             if(nums[i]> maxNum){
