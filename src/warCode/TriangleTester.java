@@ -15,7 +15,12 @@ public class TriangleTester {
             return false;
     }
 
+    public static  boolean checkTriangle(int a, int b, int c){
+        return a+b>c && b+c>a && a+c>b;
+    }
     public static void main(String[] args) {
-        System.out.println(isTriangle(3,3,6));
+       // System.out.println(isTriangle(3,3,6));
+
+        System.out.println(checkTriangle(3,3,6));
     }
 }
